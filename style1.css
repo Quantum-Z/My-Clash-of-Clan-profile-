@@ -1,0 +1,212 @@
+/* @font-face {
+  font-family: supercell;
+  src: url(font/Helvetica.ttf);
+} */
+
+/* body {
+  background-color: #1b1b1b;
+  margin: 0;
+  padding: 0;
+} */
+
+/* .main {
+  min-width: 100px;
+  min-height: 100vh;
+  border: 2px dashed rgba(255, 255, 255, 0.506);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 10px 10px 10px;
+} */
+
+/* .First-heading {
+  width: 95%;
+  height: 140px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1px;
+  margin-top: 30px;
+} */
+
+/* .image6 {
+  margin-bottom: 15px;
+  object-fit: cover;
+  width: 200px;
+} */
+
+/* h3 {
+  color: white;
+  font-family: "Inconsolata", monospace;
+  margin: 0;
+  padding: 0%;
+  font-size: 25px;
+  position: absolute;
+  top: 130px;
+} */
+
+/* .my-coc-id {
+  position: absolute;
+  left: 70%;
+  top: 25%;
+  text-align: center;
+  font-size: 20px;
+} */
+
+/* .my-id {
+  color: rgb(241, 146, 36);
+  font-family: "Inconsolata", monospace;
+}
+
+.arrow {
+  font-size: 30px;
+  color: white;
+} */
+
+/* .tag {
+  color: #bab1a2;
+}
+
+.hi {
+  font-size: 50px;
+  color: rgb(241, 146, 36);
+  margin-bottom: 30px;
+  display: inline-block;
+} */
+
+/* .question {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 100%;
+  height: 700px;
+  position: relative;
+  right: 20px;
+}
+.so {
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+} */
+/* 
+.introduction {
+  color: white;
+  font-size: 30px;
+  font-family: "Inconsolata", monospace;
+  min-width: 341px;
+}
+
+.png1 {
+  transform: scaleX(-1);
+  object-fit: cover;
+  height: 450px;
+  max-width: 500px;
+} */
+
+/* .storypart-1,
+.storypart-2,
+.stroypart-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  gap: 20px;
+} */
+
+/* .storypart-2 {
+  margin-top: 30px;
+} */
+
+/* .part1,
+.part2,
+.part3,
+.part4 {
+  color: white;
+  font-size: 25px;
+  font-family: "Inconsolata", monospace;
+
+  min-width: 400px; 
+  margin: 0 auto;
+  max-width: 550px;
+} */
+
+/* .part1 {
+  position: relative;
+  left: 90px;
+}
+
+.part2 {
+  position: relative;
+  right: 90px;
+}
+
+.part3 {
+  position: relative;
+  left: 90px;
+}
+
+.part4 {
+  position: relative;
+  top: 30px;
+} */
+
+/* .png2,
+.png3,
+.png4 {
+  object-fit: cover;
+  height: 350px;
+  max-width: 100%;
+}
+
+.png2 {
+  margin-right: 170px;
+  height: 300px;
+}
+
+.png3 {
+  margin-left: 250px;
+}
+
+.png4 {
+  margin-right: 170px;
+  height: 350px;
+}
+
+.and-then {
+  color: rgb(241, 146, 36);
+  font-family: "Inconsolata", monospace;
+  font-size: 50px;
+  width: 100%;
+  margin-left: 50%;
+} */
+
+/* .last-part {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.origin {
+  font-size: 40px;
+  color: rgb(241, 146, 36);
+  white-space: nowrap;
+  margin-right: 50px;
+  position: relative;
+  right: 20%;
+} */
+/* .last {
+  font-family: "Inconsolata", monospace;
+  color: rgb(255, 255, 255);
+}
+
+.life {
+  color: rgb(241, 146, 36);
+  font-size: larger;
+} */

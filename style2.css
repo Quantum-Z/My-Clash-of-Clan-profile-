@@ -1,0 +1,295 @@
+@font-face {
+  font-family: supercell;
+  src: url(font/Helvetica.ttf);
+}
+
+body {
+  background-color: #1b1b1b;
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  min-width: 100px;
+  min-height: 100vh;
+  border: 2px dashed rgba(255, 255, 255, 0.506);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.First-heading {
+  width: 90%;
+  height: 140px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px; /* Reduced from 10px */
+  margin-top: 20px;
+  padding: 10px; /* Reduced from 15px */
+  box-sizing: border-box;
+}
+
+.First-heading img.image6 {
+  max-width: 120px; /* Reduced from 150px if it was set */
+  width: 120px;
+  height: auto;
+  margin-bottom: 5px; /* Reduced from 10px if it was set */
+}
+
+.First-heading h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em; /* Adjust as needed */
+  text-align: center;
+}
+
+.image6 {
+  margin-bottom: 15px;
+  object-fit: cover;
+  width: 200px;
+}
+
+h3 {
+  color: white;
+  font-family: "Inconsolata", monospace;
+  margin: 0;
+  padding: 0%;
+  font-size: 25px;
+  position: absolute;
+  top: 150px;
+}
+
+.my-coc-id {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.my-id {
+  color: rgb(241, 146, 36);
+  font-family: "Inconsolata", monospace;
+  font-size: clamp(14px, 3vw, 18px);
+}
+
+.arrow {
+  font-size: clamp(24px, 5vw, 30px);
+  color: white;
+}
+
+.tag {
+  color: #bab1a2;
+}
+
+.whole-story {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.png1 {
+  transform: scaleX(-1);
+  max-width: 90%;
+  height: auto;
+}
+
+.png2 {
+  max-width: 90%;
+  height: auto;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .storypart-1 {
+    position: relative;
+  }
+
+  .png2 {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-width: 40%;
+  }
+
+  .part1 {
+    width: 55%;
+  }
+}
+
+.introduction {
+  color: white;
+  font-size: clamp(18px, 4vw, 24px);
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+}
+
+.hi {
+  font-size: clamp(24px, 5vw, 30px);
+  color: rgb(241, 146, 36);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.storypart-1,
+.storypart-2,
+.stroypart-3,
+.storypart-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.part1,
+.part2,
+.part3,
+.part4 {
+  color: white;
+  font-size: clamp(16px, 3vw, 22px);
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+}
+
+.so {
+  font-size: clamp(40px, 8vw, 60px);
+}
+
+.png2,
+.png3,
+.png4 {
+  max-width: 80%;
+  height: auto;
+}
+
+.and-then {
+  color: rgb(241, 146, 36);
+  font-family: "Inconsolata", monospace;
+  font-size: clamp(28px, 6vw, 35px);
+  text-align: center;
+  margin: 40px 0;
+}
+
+.origin {
+  font-size: clamp(24px, 5vw, 35px);
+  color: rgb(241, 146, 36);
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.last-part {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.last-part img {
+  max-width: 100%;
+  height: auto;
+}
+
+.last {
+  font-family: "Inconsolata", monospace;
+  color: rgb(255, 255, 255);
+  font-size: clamp(16px, 3vw, 20px);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.life {
+  color: rgb(241, 146, 36);
+  font-size: larger;
+}
+
+/* Media Queries for larger screens */
+@media (min-width: 768px) {
+  .storypart-1,
+  .storypart-2,
+  .stroypart-3 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .storypart-1 p,
+  .storypart-2 p,
+  .stroypart-3 p {
+    width: 60%;
+  }
+
+  .storypart-1 img,
+  .storypart-2 img,
+  .stroypart-3 img {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main {
+    padding: 40px;
+  }
+}
+.First-heading {
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Mobile Breakpoint (iPhones and smaller phones) */
+@media screen and (max-width: 768px) {
+  .First-heading {
+    padding: 8px;
+    gap: 3px;
+  }
+
+  .First-heading img.image6 {
+    max-width: 100px;
+    width: 100px;
+  }
+
+  .First-heading h3 {
+    font-size: 1em;
+  }
+
+  .First-heading .image6 {
+    max-width: 80px !important;
+    width: 80px !important;
+    height: auto !important;
+    margin-bottom: 10px !important;
+  }
+
+  .First-heading h3 {
+    font-size: 16px !important;
+    margin: 0 !important;
+  }
+
+  .First-heading .my-coc-id {
+    margin-top: 5px !important;
+  }
+
+  .First-heading .my-id {
+    font-size: 12px !important;
+  }
+}
